@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <title>West Motors</title>
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <div id = "page">
+    <header class="header" id="hdr">
+        <div class="header_inner" id="hdrin">
+            <div class="header_logo" id="hdrlogo">West Motors</div>
+            <nav>  
+                <input type="checkbox" class="checkbox" id="chk">
+                <label for="chk" class="label">
+                    <div class="ball"></div>
+                </label>              
+                <a class="nav_link" href="#" id="nvl">Main</a>
+                <a class="nav_link" href="#" id="nvl1">Stages
+                    <li class="sub_menu" id="nvl2">Stage 1</li>
+                    <li class="sub_menu" id="nvl3">Stage 2</li>
+                    <li class="sub_menu" id="nvl4">Stage 3</li>
+                    <li class="sub_menu" id="nvl5">Stage 4</li>
+                </a>
+                <a class="nav_link" href="#" id="nvl6">About</a>
+                <a class="nav_link" href="#" id="nvl7">Jobs</a>
+                <a class="nav_link" href="#" id="nvl8">Contact</a>  
+            </nav>
+
+        </div>
+    </header>
+
+    <div class="intro" id="intr">
+        <div class="container">
+            <div class="intro_inner">
+                <h1 class="intro_title">Welcome to West Motors</h1>
+
+                <a class="btn" id = "MyButton">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="forms">
+        <div id="error"></div>
+        <form id="form">
+            <label for="first_name">Name</label>
+            <input type="text" id="first_name" placeholder="Write your name">
+            <label for="phone">Phone number</label>
+            <input type="text" id="phone" placeholder="Write your phone number">
+            <label for="pwd">Password</label>
+            <input type="password" id="pwd" placeholder="Password">
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </div>
+
+    <div class="tables">
+        <table id="MyTable">
+            <tr>
+                <th>Stage</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Stage 1</td>
+                <td>4000$</td>
+            </tr>
+            <tr>
+                <td>Stage 2</td>
+                <td>8500$</td>
+            </tr>
+            <tr>
+                <td>Stage 3</td>
+                <td>15000$</td>
+            </tr>
+            <tr>
+                <td>Stage 4</td>
+                <td>30000$</td>
+            </tr>
+        </table>
+    </div>
+</div>
+</body>
+
+</html>
